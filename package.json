@@ -1,9 +1,10 @@
 {
-  "name": "sol-incinerator",
+  "name": "sol-incinerator-website",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "tsc && node backend.js"
+    "build": "tsc",
+    "start": "tsc && node api/logBurn.js"
   },
   "dependencies": {
     "@solana/web3.js": "^2.0.0",
