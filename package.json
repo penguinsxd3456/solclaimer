@@ -1,0 +1,16 @@
+{
+  "name": "sol-incinerator",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node backend.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^2.0.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
